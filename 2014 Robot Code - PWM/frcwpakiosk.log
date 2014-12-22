@@ -1,0 +1,25 @@
+2014-02-03 11:08:37,249 INFO [AWT-EventQueue-0] f.t.FRC_Team_Kiosk [FRC_Team_Kiosk.java:422] Starting kiosk...
+2014-02-03 11:08:37,600 ERROR [AWT-EventQueue-0] f.t.FRC_Team_Kiosk [FRC_Team_Kiosk.java:146] failed to initialize host computer network settings
+frcradiokiosk.HostException: Failed to initialize host computer settings
+	at frcradiokiosk.HostComputer.<init>(HostComputer.java:43) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frc.teamkiosk.FRC_Team_Kiosk.startup(FRC_Team_Kiosk.java:127) ~[FRC%20Bridge%20Configuration%20Utility.exe:08.15.13.200]
+	at frc.teamkiosk.FRC_Team_Kiosk$7.run(FRC_Team_Kiosk.java:425) [FRC%20Bridge%20Configuration%20Utility.exe:08.15.13.200]
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source) [na:1.7.0_13]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [na:1.7.0_13]
+	at java.awt.EventQueue.access$200(Unknown Source) [na:1.7.0_13]
+	at java.awt.EventQueue$3.run(Unknown Source) [na:1.7.0_13]
+	at java.awt.EventQueue$3.run(Unknown Source) [na:1.7.0_13]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.7.0_13]
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source) [na:1.7.0_13]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [na:1.7.0_13]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [na:1.7.0_13]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [na:1.7.0_13]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [na:1.7.0_13]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [na:1.7.0_13]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [na:1.7.0_13]
+	at java.awt.EventDispatchThread.run(Unknown Source) [na:1.7.0_13]
+Caused by: frcradiokiosk.HostException: Could not detect operating system, found: Windows 8
+	at frcradiokiosk.HostComputer.getOS(HostComputer.java:78) ~[FRCWpaKiosk.jar:12.18.12.913]
+	at frcradiokiosk.HostComputer.<init>(HostComputer.java:36) ~[FRCWpaKiosk.jar:12.18.12.913]
+	... 16 common frames omitted
+2014-02-03 11:08:41,093 INFO [AWT-EventQueue-0] f.t.FRC_Team_Kiosk [FRC_Team_Kiosk.java:222] Shutting down kiosk

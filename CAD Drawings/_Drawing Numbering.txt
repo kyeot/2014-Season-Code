@@ -1,0 +1,8 @@
+FIRST 2014 First Robot
+
+Robot Name 			- 	R8
+Overview Drawings 	-	0000
+PD Board 			-	1000
+Digital Side Car	-	2000
+Motor Controllers	-	3000
+cRio				-	4000
